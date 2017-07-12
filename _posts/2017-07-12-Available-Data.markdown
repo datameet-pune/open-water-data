@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      New Post
-author:     Ahmet Cecen
-tags: 		post template
-subtitle:  	Some Short Description of Post
-category:  project1
+title:      Available Water Data
+author:     Namita Bhatawdekar
+tags: 		water data available
+subtitle:  	These are the currently available water datasets
+category:  datasets
 ---
 <!-- Start Writing Below in Markdown -->
 
