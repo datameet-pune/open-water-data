@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      Needed Water Data
+title:      Available Water Data
 author:     Namita Bhatawdekar
 <!-- tags: 		water data available -->
-subtitle:  	Need these datasets
+subtitle:  	These are the currently available water datasets
 category:  datasets
 ---
 <!-- Start Writing Below in Markdown -->

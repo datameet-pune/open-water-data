@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      Needed Water Data
+title:      Technology Stack
 author:     Namita Bhatawdekar
 <!-- tags: 		water data available -->
-subtitle:  	Need these datasets
+subtitle:  	Something about tech stack
 category:  datasets
 ---
 <!-- Start Writing Below in Markdown -->
