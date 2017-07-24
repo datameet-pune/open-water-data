@@ -4,7 +4,7 @@ title:      Needed Water Data
 author:     Namita Bhatawdekar
 <!-- tags: 		water data available -->
 subtitle:  	Need these datasets
-category:  datasets
+category:  Rainfall
 ---
 <!-- Start Writing Below in Markdown -->
 

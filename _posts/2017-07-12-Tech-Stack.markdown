@@ -4,7 +4,7 @@ title:      Technology Stack
 author:     Namita Bhatawdekar
 <!-- tags: 		water data available -->
 subtitle:  	Something about tech stack
-category:  datasets
+category:  Tech
 ---
 <!-- Start Writing Below in Markdown -->
 

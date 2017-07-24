@@ -4,7 +4,7 @@ title:      Available Water Data
 author:     Namita Bhatawdekar
 <!-- tags: 		water data available -->
 subtitle:  	These are the currently available water datasets
-category:  datasets
+category:  Rainfall
 ---
 <!-- Start Writing Below in Markdown -->
 
