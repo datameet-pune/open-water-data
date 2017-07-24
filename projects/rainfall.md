@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Rainfall"
-description: "Description of Project #1"
+description: "Rainfall Data"
 header-img: "img/home-bg.jpg"
 category: Rainfall
 ---
