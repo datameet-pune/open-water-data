@@ -1,6 +1,11 @@
 ---
 layout: page
 ---
+
+<div class="home-intro">
+    <span>Some intro here </span>
+</div>
+
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
