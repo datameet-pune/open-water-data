@@ -1,25 +1,61 @@
 # Members
 
-- name: Ahmet Cecen
-  role: Data Scientist / Materials Informatics
-  img: https://avatars1.githubusercontent.com/u/7231251?v=3&s=460
-  github: ahmetcecen
-  gplus: https://plus.google.com/+AhmetCecen-GPlus
-  bio: Ahmet Cecen is currently pursuing a PhD in Computational Science and Engineering at Georgia Institute of Technology.  He earned a bachelor’s degree in Mechanical Engineering at Drexel University. Ahmet has been doing research in the fields of computational materials science and materials informatics for the past 6 years, throughout his undergraduate and graduate studies. His current research focus is on leveraging statistical analysis and machine learning tools to solve big data analytics problems in materials science. 
-  url: http://ahmetcecen.github.io/
-  visible: true
-   
-- name: David Brough
-  role: Data Scientist / Materials Informatics
-  img: https://avatars0.githubusercontent.com/u/4368625?v=3&s=460
-  github: davidbrough1
-  bio: David is a PhD student in the School of Computational Science and Engineering at Georgia Institute of Technology. David earned a Master’s degree in experimental condensed matter physics at Brigham Young University where he fabricated and characterized thin-films and carbon nanotubes used in nanostructured high capacity battery electrodes and in X-ray windows. As an undergraduate, David studied theoretical physics and researched the evolution of chaotic systems using neural networks at Westminster College. He is a trainee in the NSF IGERT FLAMEL program, and one of the lead developers on PyMKS materials informatics toolkit.
-  url: http://davidbrough.net 
+- name: Craig Dsouza
+  role: Researcher and Project Coordinator
+  img: http://datameet.org/wp-content/uploads/2015/07/craig.jpg
+  github: craigdsouza
+  twitter: https://twitter.com/dsouza_craig
+  bio: Currently an independent researcher in the development sector with a keen interest in water resources and agriculture. 
+  Graduated with a Master’s in Energy and Environmental Policy in 2013 and then worked as a researcher with the Society
+  for Promoting Participative Ecosystem Management, undertaking river basin studies in central and eastern India. 
+  Craig believes that the democratization of data and the tools to derive insights from data holds tremendous potential for 
+  addressing issues of inequity and environmental sustainability in India. He contributes to these efforts as co-ordinator 
+  of Datameet-Pune, the city chapter of datameet.org 
+  url: http://unravellingindia.in/
   visible: true
   
-- name: Surya R. Kalidindi
-  role: Materials Informatics
-  img: https://avatars1.githubusercontent.com/u/6601815?v=3&s=400
-  bio: Dr. Kalidindi’s research interests are broadly centered on designing material internal structure (including composition) for optimal performance in any selected application and identifying hybrid processing routes for its manufacture. To this end, he has employed a harmonious blend of experimental, theoretical, and numerical approaches in his research.
-  url: http://mined.gatech.edu/
-  visible: false
+- name: Namita Bhatawdekar
+  role:
+  img:
+  github:
+  twitter:
+  bio:
+  url:
+  visible: true
+  
+- name: Riddhi Munde
+  role:
+  img:
+  github:
+  twitter:
+  bio:
+  url:
+  visible: true
+  
+- name: Jinda Sandbhor
+  role:
+  img:
+  github:
+  twitter:
+  bio:
+  url:
+  visible: true
+  
+- name: Devdatta Tengshe
+  role:
+  img:
+  github:
+  twitter:
+  bio:
+  url:
+  visible: true
+  
+- name: Sumandro Chattapadhyay
+  role: Project Adviser and Research Director, Centre for Internet and Society (CIS)
+  img: http://www.designpublic.in/wp-content/uploads/2015/10/sumandro-269x200.jpg
+  github: ajantriks
+  twitter: https://twitter.com/ajantriks/
+  bio: Worked extensively to document, develop, and contribute to open data policies and practices with Indian government 
+  organisations, civil society organisations in India, and global open data communities (including the Open Data Charter).
+  url: http://ajantriks.net/
+  visible: true
