@@ -1,0 +1,39 @@
+---
+layout: page
+title: "Team"
+description: "Collaborators working on this project."
+header-img: "img/home-bg.jpg"
+---
+<hr>
+
+{% for team in site.data.team %} {% if team.visible == true %}
+
+	<img src="{{ team.img }}" style="margin-top:0px; margin-bottom:5px; margin-right:10px; float:left; width:150px !important">
+	
+	<h1>{{ team.name }}</h1>
+	
+	<h2>{{ team.role }}</h2>
+	
+	{% if team.github %} 
+	<span class="social-share-googleplus"><a href="https://github.com/{{ team.github }}" title="Github"><img src="{{ "/img/icons/github-icon.png" | prepend: site.baseurl }}" style="height:20px">Github</a></span> 
+	{% endif %}
+	{% if team.twitter %} 
+	<span class="social-share-googleplus"><a href="{{ team.twitter }}" title="Twitter"><img src="{{ "/img/icons/twitter-icon.png" | prepend: site.baseurl }}" style="height:20px">Twitter</a></span> 
+	{% endif %}
+	{% if team.gplus %}
+	<span class="social-share-googleplus"><a href="{{ team.gplus }}" title="Google Plus"><img src="{{ "/img/icons/gplus-icon.png" | prepend: site.baseurl }}" style="height:20px">Google Plus</a></span>
+	{% endif %}
+	{% if team.url %}
+	<span class="social-share-googleplus"><a href="{{ team.url }}" title="Google Plus"><img src="{{ "/img/icons/url-icon.png"| prepend: site.baseurl }}" style="height:20px">Website</a></span>
+	{% endif %}
+	
+	</br>
+
+	{% if team.bio %} 
+	{{ team.bio }}
+	{% endif %}
+	
+	<hr>
+
+{% endif %}{% endfor %}
+
