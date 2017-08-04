@@ -10,12 +10,13 @@
   visible: true
   
 - name: Namita Bhatawdekar
-  role:
+  role: Data Visualization and Web Developer
   img:
-  github:
+  github: bnamita
   twitter:
-  bio:
-  url:
+  linkedin: https://www.linkedin.com/in/namitabhatawdekar/
+  bio: Namita is a Web developer with a vast experience in developing web applications and web-based Data Visualizations. She has worked on developing Data Visuaizations for corporate businesses as well as in the research sector. She worked with MIT's research lab in Singapore as a Data Visualization expert where she visualized simulation outputs of autonomous vehicles to evaluate urban transport policies. Her work was showcased in many national and international conferences.  She has a keen interest in solving social problems using Data and is part of Datameet Pune, city chapter of datameet.org.
+  url: https://bnamita.github.io/Portfolio/
   visible: true
   
 - name: Riddhi Munde
