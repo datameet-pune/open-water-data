@@ -9,15 +9,15 @@ url: "https://datameet-pune.github.io"
 
 
 # Secondary Parameters
-baseurl: "/water-data-portal"
+baseurl: "/open-water-data"
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
-logo: /water-data-portal/img/logos/datameet_logo.png
+logo: /open-water-data/img/logos/datameet_logo.png
 
 # Tertiary Parameters
 github_username:  datameet-pune
-project_repository: water-data-portal
-disqus_shortname: water-data-portal
+project_repository: open-water-data
+disqus_shortname: open-water-data
 g-analytics: UA-71858173-8
 altmetric: true
 
@@ -43,7 +43,7 @@ defaults:
 # Prose Settings
 prose:
   ignore: ['feed.xml', '/stl', '/ply', '/js', '/plugin', '/lib', '/projectors', '_layouts', '/_includes', 'Gruntfile.js', 'package.json', 'proselinks.jsonp', 'ppanchor.matin', '.gitignore', '/search', '/css', '/img', 'favicon.png','_data/*.json','LICENSES.md','README.md','colorscheme.scss','members.html','mentions.html','index.html']
-  siteurl: 'http://datameet-pune.github.io/water-data-portal/'
+  siteurl: 'http://datameet-pune.github.io/open-water-data/'
   ispp: true
   media: 'img'
   metadata:
@@ -108,7 +108,7 @@ prose:
       - name: "horizontal"
         field:
           element: "hidden"
-          value: </section></section><section markdown="1" data-background="http://datameet-pune.github.io/water-data-portal/img/slidebackground.png"><section markdown="1">
+          value: </section></section><section markdown="1" data-background="http://datameet-pune.github.io/open-water-data/img/slidebackground.png"><section markdown="1">
       - name: "vertical"
         field:
           element: "hidden"
@@ -116,7 +116,7 @@ prose:
       - name: "slideinit"
         field:
           element: "hidden"
-          value: <section markdown="1" data-background="http://datameet-pune.github.io/water-data-portal/img/slidebackground.png"><section markdown="1">
+          value: <section markdown="1" data-background="http://datameet-pune.github.io/open-water-data/img/slidebackground.png"><section markdown="1">
       - name: "theme"
         field:
           element: "select"
