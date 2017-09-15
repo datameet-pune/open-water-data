@@ -17,6 +17,9 @@ header-img: "img/home-bg.jpg"
 	{% if team.github %} 
 	<span class="social-share-googleplus"><a href="https://github.com/{{ team.github }}" title="Github"><img src="{{ "/img/icons/github-icon.png" | prepend: site.baseurl }}" style="height:20px">Github</a></span> 
 	{% endif %}
+	{% if team.linkedin %} 
+	<span class="social-share-googleplus"><a href="{{ team.linkedin }}" title="Linkedin"><img src="{{ "/img/icons/linkedin-icon.png" | prepend: site.baseurl }}" style="height:20px">Linkedin</a></span> 
+	{% endif %}
 	{% if team.twitter %} 
 	<span class="social-share-googleplus"><a href="{{ team.twitter }}" title="Twitter"><img src="{{ "/img/icons/twitter-icon.png" | prepend: site.baseurl }}" style="height:20px">Twitter</a></span> 
 	{% endif %}
