@@ -20,29 +20,21 @@
   visible: true
   
 - name: Riddhi Munde
-  role:
-  img:
+  role: Remote Sensing Specialist
+  img: https://media.licdn.com/media/AAEAAQAAAAAAAALfAAAAJDQ5MTExMjQ3LWIzYjYtNDE4Yy1iNDE2LTE0MjExOTQ1ZDVlNQ.jpg
   github:
   twitter:
-  bio:
+  linkedin: https://www.linkedin.com/in/riddhimunde/
+  bio: Riddhi is a GIS and Remote Sensing professional with 2.5 yrs of experience. She has a Master's degree in Geoinformatics and Earth Observation from ITC, University of Twente, The Netherlands. Her project experience includes implementing GIS and remote sensing solutions across a number of industries. She is interested in location and remote sensing analytics, ML, Image processing, web based visualizations and is proficient in ArcGIS, QGIS, PostGIS, Web mapping, algorithm development in Python and R and cloud computing. At Datameet she contributes with her know how of remote sensing to further improve data access in water and agriculture.
   url:
   visible: true
   
 - name: Jinda Sandbhor
-  role:
-  img:
+  role: Researcher
+  img: http://praggyan.com/wp-content/uploads/2017/03/Jinda-Sandbhor-e1488366306664.jpg
   github:
   twitter:
-  bio:
-  url:
-  visible: true
-  
-- name: Devdatta Tengshe
-  role:
-  img:
-  github:
-  twitter:
-  bio:
+  bio: Jinda Sandbhor is an action researcher associated with Manthan Adhyayan Kendra, Pune, where he works to document and analyze issues related to the water and energy sectors in India. He actively supports socio-political movements in Maharashtra, Odisha and North Karnataka. In the past he has conducted research studies on water conflicts around rivers and major dams, socio-economic impacts of droughts, impacts of coal based thermal power on water and the local environment. He has been associated with the Datameet-Pune chapter since its beginning in 2015 and here seeks to improve access to data on social and environmental subjects.
   url:
   visible: true
   
