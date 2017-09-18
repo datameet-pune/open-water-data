@@ -13,7 +13,7 @@
       url: /crop-map/
     - title: Classification
       url: /crop-classification/
- - title: Rainfall
+- title: Rainfall
   url: /rainfall
   sublinks:
     - title: Begin here
