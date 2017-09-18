@@ -1,0 +1,24 @@
+- title: About
+  url: /about/
+- title: Team
+  url: /team/
+- title: Search
+  url: /search/
+- title: Crop Water Use
+  url: /crop-water-use
+  sublinks:
+    - title: Begin here
+      url: /begin-here/
+    - title: Live Crop Map
+      url: /crop-map/
+    - title: Classification
+      url: /crop-classification/
+ - title: Rainfall
+  url: /rainfall
+  sublinks:
+    - title: Begin here
+      url: /begin-here/
+    - title: IMD Rainfall Data
+      url: /imd-data/
+    - title: Remotely sensed Rainfall Data
+      url: /rs-data/
