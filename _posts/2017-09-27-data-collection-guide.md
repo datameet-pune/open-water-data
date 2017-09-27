@@ -27,7 +27,7 @@ The data once collected will look something like this<br>
 
 | Crop | Latitude | Longitude | Date of Photo | Photo |
 | ---- | -------- | --------- | ------------- | ----- |
-| Rice | 18.53173 | 73.53651  | Sep 24th,2017 |![rice](https://github.com/datameet-pune/open-water-data/blob/master/img/oc-image-rice.jpg)|
+| Rice | 18.53173 | 73.53651  | Sep 24th,2017 |![rice](https://datameet-pune.github.io/open-water-data/img/oc-image-rice.jpg) {width="200px"}|
 
 If any of you are traveling outside your city and can get us a few data points your help would be much appreciated. Else if you know friends living outside the cities who can help us please do forward this to them! 
 
@@ -35,28 +35,28 @@ If any of you are traveling outside your city and can get us a few data points y
 ## Open Camera App
 ### Installation
 Search Google Play Store for the Open Camera App and install. See image below.
-![open-camera-play-store](/img/oc-play-store.PNG)
+![open-camera-play-store](https://datameet-pune.github.io/open-water-data/img/oc-play-store.PNG)
 
 ### Change the default settings of Open Camera
 Open the app once installed open it and click on its settings button<br>
-![open-camera-find-settings](/img/oc-find-settings.png)        ![open-camera-settings](/img/oc-settings.png)<br><br>
+![open-camera-find-settings](https://datameet-pune.github.io/open-water-data/img/oc-find-settings.png)        ![open-camera-settings](https://datameet-pune.github.io/open-water-data/img/oc-settings.png)<br><br>
 
 Find 'Photo settings' and change settings to 'Stamp photos'<br>
-![open-camera-photo-settings](/img/oc-photo-settings.png)<br><br>
+![open-camera-photo-settings](https://datameet-pune.github.io/open-water-data/img/oc-photo-settings.png)<br><br>
 
 Find 'Location settings' and Click the ☑ for all three options<br>
-![open-camera-location-settings](/img/oc-location-settings.png)<br>
+![open-camera-location-settings](https://datameet-pune.github.io/open-water-data/img/oc-location-settings.png)<br>
 
 ## Travel to field sites
 Once the settings for the app have been fixed you can travel to field sites. Please choose sites where you can identify the crops. Alternatively at some sites you may find a farmer who can tell you the name of the crop, this would also work.
 ### GPS
 Turn on the GPS on your phone. It is important for accuracy that the GPS is turned on at least 2-3 minutes before taking the first photo. When the GPS signal is obtained you will see a yellow light when taking the image, see below
-![open-camera-gps-ready](/img/oc-gps-ready.png)<br>
+![open-camera-gps-ready](https://datameet-pune.github.io/open-water-data/img/oc-gps-ready.png)<br>
 
 ### Click and confirm photo
 You may now take a photo of the field. When taking a photo do try to get a clear picture in which some part of the background is also visible.<br>
 Once you have clicked find the photo and confirm whether the GPS Latitude, Longitude, angle and timestamp are all visible.
-![open-camera-photo-confirm](/img/oc-photo-confirm.jpg)<br>
+![open-camera-photo-confirm](https://datameet-pune.github.io/open-water-data/img/oc-photo-confirm.jpg)<br>
 
 ## Upload photos and rename
 When you are back home connect your phone to a laptop via USB and download the folder of photos you have taken. They will be in the DCIM > OpenCamera folder on your phone.<br>
