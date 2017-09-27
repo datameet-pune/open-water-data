@@ -38,13 +38,11 @@ Search Google Play Store for the Open Camera App and install. See image below.
 ![open-camera-play-store](https://datameet-pune.github.io/open-water-data/img/oc-play-store.PNG)
 
 ### Change the default settings of Open Camera
-Open the app once installed open it and click on its settings button<br>
-
+Open the app once installed open it and click on its settings button
 
 | Find settings menu | Settings menu preview |
 |:---:|:---:|
 | ![open-camera-find-settings](https://datameet-pune.github.io/open-water-data/img/oc-find-settings.png) | ![open-camera-settings](https://datameet-pune.github.io/open-water-data/img/oc-settings.png) |
-
 
 | Photo settings | Location settings |
 |:---:|:---:|
