@@ -27,7 +27,7 @@ The data once collected will look something like this<br>
 
 | Crop | Latitude | Longitude | Date of Photo | Photo |
 | ---- | -------- | --------- | ------------- | ----- |
-| Rice | 18.53173 | 73.53651  | Sep 24th,2017 |![rice](/img/oc-image-rice.jpg){:width="300px"}|
+| Rice | 18.53173 | 73.53651  | Sep 24th,2017 |![rice](/img/oc-image-rice.jpg){:height="580px" width="300px"}|
 
 If any of you are traveling outside your city and can get us a few data points your help would be much appreciated. Else if you know friends living outside the cities who can help us please do forward this to them! 
 
