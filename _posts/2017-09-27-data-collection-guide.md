@@ -27,7 +27,7 @@ The data once collected will look something like this<br>
 
 | Crop | Latitude | Longitude | Date of Photo | Photo |
 | ---- | -------- | --------- | ------------- | ----- |
-| Rice | 18.53173 | 73.53651  | Sep 24th,2017 |![rice](https://datameet-pune.github.io/open-water-data/img/oc-image-rice.jpg) {width="200px"}|
+| Rice | 18.53173 | 73.53651  | Sep 24th,2017 |![rice](https://datameet-pune.github.io/open-water-data/img/oc-image-rice.jpg)|
 
 If any of you are traveling outside your city and can get us a few data points your help would be much appreciated. Else if you know friends living outside the cities who can help us please do forward this to them! 
 
@@ -39,7 +39,7 @@ Search Google Play Store for the Open Camera App and install. See image below.
 
 ### Change the default settings of Open Camera
 Open the app once installed open it and click on its settings button<br>
-![open-camera-find-settings](https://datameet-pune.github.io/open-water-data/img/oc-find-settings.png)        ![open-camera-settings](https://datameet-pune.github.io/open-water-data/img/oc-settings.png)<br><br>
+![open-camera-find-settings](https://datameet-pune.github.io/open-water-data/img/oc-find-settings.png)    ![open-camera-settings](https://datameet-pune.github.io/open-water-data/img/oc-settings.png)<br><br>
 
 Find 'Photo settings' and change settings to 'Stamp photos'<br>
 ![open-camera-photo-settings](https://datameet-pune.github.io/open-water-data/img/oc-photo-settings.png)<br><br>
