@@ -44,6 +44,7 @@ Open the app once installed open it and click on its settings button
 |:---:|:---:|
 | ![open-camera-find-settings](https://datameet-pune.github.io/open-water-data/img/oc-find-settings.png) | ![open-camera-settings](https://datameet-pune.github.io/open-water-data/img/oc-settings.png) |
 
+<br>Then change the photo and location settings<br>
 
 | Photo settings | Location settings |
 |:---:|:---:|
