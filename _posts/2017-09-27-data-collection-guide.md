@@ -23,7 +23,8 @@ Table of Contents
 # Goals of data collection
 Out goal of this data collection exercise is to develop a crop database that can be used to teach a training/testing set for applying Machine Learning to open source satellite imagery. The database would need to have three main variables. Crop name, GPS lat,long of a field where the crop is currently growing and a photo of the crop itself. <br>
 
-The data once collected will look something like this<br><br>
+The data once collected will look something like this<br>
+
 | Crop | Latitude | Longitude | Date of Photo | Photo |
 | ---- | -------- | --------- | ------------- | ----- |
 | Rice | 18.53305 | 73.57253  | Sep 23rd,2017 |       |
