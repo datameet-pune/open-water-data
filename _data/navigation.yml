@@ -8,7 +8,7 @@
   url: /crop-water-use
   sublinks:
     - title: Data collection
-      url: /_posts/2017-09-27-data-collection-guide.markdown
+      url: /blob/master/_posts/2017-09-27-data-collection-guide.markdown
     - title: Live Crop Map
       url: /crop-map/
     - title: Classification
