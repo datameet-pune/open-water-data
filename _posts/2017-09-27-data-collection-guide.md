@@ -27,7 +27,7 @@ The data once collected will look something like this<br>
 
 | Crop | Latitude | Longitude | Date of Photo | Photo |
 | ---- | -------- | --------- | ------------- | ----- |
-| Rice | 18.53305 | 73.57253  | Sep 23rd,2017 |       |
+| Rice | 18.53173 | 73.53651  | Sep 24th,2017 |<img src="/img/oc-image-rice.jpg" width="500"/>|
 
 If any of you are traveling outside your city and can get us a few data points your help would be much appreciated. Else if you know friends living outside the cities who can help us please do forward this to them! 
 
@@ -35,14 +35,17 @@ If any of you are traveling outside your city and can get us a few data points y
 ## Open Camera App
 ### Installation
 Search Google Play Store for the Open Camera App and install. See image below.
-![](open-camera-app.png)
+
+<img src="/img/oc-play-store.PNG" width="500"/>
+
 ### Change the default settings of Open Camera
 Open the app once installed and change its settings as follows<br>
-Click on settings button<br>![](settings button)
-Find 'Photo settings'<br>
-Change settings to 'Stamp photos'<br>
-Find 'Location settings'<br>
-Click the [x] on all three
+Click on settings button<br>
+<img src="/img/oc-find-settings.png" width="300"/> <img src="/img/oc-settings.png" width="300"/><br>
+Find 'Photo settings' and change settings to 'Stamp photos'<br>
+<img src="/img/oc-photo-settings.png" width="300"/><br>
+Find 'Location settings' and Click the ☑ for all three options<br>
+<img src="/img/oc-location-settings.png" width="300"/><br>
 
 ## Travel to field sites
 Once the settings for the app have been fixed you can travel to field sites. Please choose sites where you can identify the crops. Alternatively at some sites you may find a farmer who can tell you the name of the crop, this would also work.
