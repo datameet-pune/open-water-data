@@ -39,7 +39,7 @@ Search Google Play Store for the Open Camera App and install. See image below.
 
 ### Change the default settings of Open Camera
 Open the app once installed open it and click on its settings button<br>
-![open-camera-find-settings](https://datameet-pune.github.io/open-water-data/img/oc-find-settings.png)    ![open-camera-settings](https://datameet-pune.github.io/open-water-data/img/oc-settings.png)<br><br>
+![open-camera-find-settings](https://datameet-pune.github.io/open-water-data/img/oc-find-settings.png)![open-camera-settings](https://datameet-pune.github.io/open-water-data/img/oc-settings.png)<br><br>
 
 Find 'Photo settings' and change settings to 'Stamp photos'<br>
 ![open-camera-photo-settings](https://datameet-pune.github.io/open-water-data/img/oc-photo-settings.png)<br><br>
