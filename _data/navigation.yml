@@ -6,16 +6,16 @@
   url: /search/
 - title: Crop Water Use
   url: /crop-water-use
-  sublinks:
+  sublink:
     - title: Data collection
-      url: /blob/master/_posts/2017-09-27-data-collection-guide.markdown
+      url: /_posts/2017-09-27-data-collection-guide.md
     - title: Live Crop Map
       url: /crop-map/
     - title: Classification
       url: /crop-classification/
 - title: Rainfall
   url: /rainfall
-  sublinks:
+  sublink:
     - title: Begin here
       url: /begin-here/
     - title: IMD Rainfall Data
