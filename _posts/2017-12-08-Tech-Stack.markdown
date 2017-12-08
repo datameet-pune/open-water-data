@@ -12,16 +12,16 @@ The Open Water Data (OWD) web application aims to give researchers or anyone int
 # Design Criteria
 While designing the web application, we have chosen to focus on a few key design criteria. These aren't meant to be a comprehensive list and some of these are guiding principles for features yet to be  implemented in the web app. 
 
-### *Smooth Intuitive User Experience*
+### Smooth Intuitive User Experience
 We are seeking to ensure a smooth user experience for anyone using the application even with internet bandwidth limitations. This criteria may in some cases affect the time-range of available data that can be viewed at one time or sometimes the spatial area of the visualization. Data caching may also be used to improve the rendering time for the data. 
 
-### *In browser data analysis*
+### In browser data analysis
 The app is also meant to provide the user a good range of geo-spatial functionality to interact and play around with the data in the browser itself, rather than offering just simple data visualizations with no possibility for deeper exploration.
 
-### *Localized User Interface*
+### Localized User Interface
 Another focus area was for the UI to be intuitive and accessible in local languages. For the data to find wider usage this would be absolutely essential.
 
-### *Replicability*
+### Replicability
 Lastly and equally important was the modularity and replicability of the code to allow others interested to expand or spin off ideas built on this platform. This essentially required a web app that was built on open source libraries and code. 
 
 # How it works
