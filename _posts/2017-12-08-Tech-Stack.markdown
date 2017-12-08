@@ -99,6 +99,7 @@ def get(self):
 ### GEE Python API
 On selecting a dataset layer, a request is sent to the server to fetch corresponding data from Earth Engine using the Python API. The map information is then returned to the client script to render an Earth Engine map as a Google Map overlay.
 
+
 # The Client Framework
 While the Earth Engine overlay information is received from the server, the client still talks directly to Earth Engine to load map tiles. Client is built using the React-Redux framework.
 
@@ -139,6 +140,8 @@ export default class App extends Component {
 Since React is only the front-end View layer, we use [Redux](https://redux.js.org/) to maintain the application state and perform any AJAX calls. 
 
 ```javascript
+export const UPDATE_RAINFALL_MAP = 'UPDATE_RAINFALL_MAP';
+
 export function updateRainfallMap(timePeriod, selectedArea) {
   axios.defaults.headers.post['Content-Type'] = 'application/json';
 
