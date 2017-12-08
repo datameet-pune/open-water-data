@@ -40,19 +40,124 @@ OWD also uses the Google Maps API to render these Earth Engine visualizations wh
 # The App Engine Server Framework
 
 ### Webapp2
-The application server is built along the same lines as Google Earth Engine 
-pplications using [webapp2](https://webapp2.readthedocs.io/en/latest/#), a Python web framework for Google App Engine. This is primarily due to its ready compatibility with Google App Engine and the availability of Google Earth Engine’s [demo applications](https://github.com/google/earthengine-api/tree/master/demos). The framework is supported by Google though they do not directly maintain it. Most of the documentation in App Engine refers to webapp2 for examples. The app server uses the Earth Engine Python library and the service account specified in config.py. The Python API in the server.py file does most of the communication with Earth Engine. 
+The application server is built along the same lines as Google Earth Engine applications using [webapp2](https://webapp2.readthedocs.io/en/latest/#), a Python web framework for Google App Engine. This is primarily due to its ready compatibility with Google App Engine and the availability of Google Earth Engine’s [demo applications](https://github.com/google/earthengine-api/tree/master/demos). The framework is supported by Google though they do not directly maintain it. Most of the documentation in App Engine refers to webapp2 for examples. 
+
+{% highlight python %}
+app = webapp2.WSGIApplication([
+    ('/rainfall', RainfallHandler),
+    ('/crop', CropHandler),
+    ('/', MainHandler)
+])
+{% endhighlight %}
+
+The app server uses the Earth Engine Python library and the service account specified in config.py. 
+
+{% highlight python %}
+# The service account email address authorized by Google.
+EE_ACCOUNT = '<YOUR-SERVICE-ACCOUNT-ID>'
+
+# The private key associated with service account in JSON format.
+EE_PRIVATE_KEY_FILE = 'privatekey.json'
+{% endhighlight %}
+
+The Python API in the server.py file does most of the communication with Earth Engine. 
+
+{% highlight python %}
+import config
+import ee
+import jinja2
+import webapp2
+
+# Use our App Engine service account's credentials.
+EE_CREDENTIALS = ee.ServiceAccountCredentials(
+    config.EE_ACCOUNT, config.EE_PRIVATE_KEY_FILE)
+
+# Initialize the EE API.
+ee.Initialize(EE_CREDENTIALS)
+
+{% endhighlight %}
+
+
 The [OWD web application code](https://github.com/datameet-pune/open-water-data-app) is also being hosted on Github both for version control and to keep with the open source principle of this platform
 
 
+
 ### Jinja2
-When a user loads the application in their browser, the Main Handler in server.py serves index.html with the [Jinja2](http://jinja.pocoo.org/) templating engine. On selecting a dataset layer, a request is sent to the server to fetch corresponding data from Earth Engine using the Python API. The map information is then returned to the client script to render an Earth Engine map as a Google Map overlay.
+When a user loads the application in their browser, the Main Handler in server.py serves index.html with the [Jinja2](http://jinja.pocoo.org/) templating engine. 
+
+{% highlight python %}
+JINJA2_ENVIRONMENT = jinja2.Environment(
+    loader=jinja2.FileSystemLoader(os.path.dirname(__file__)),
+    autoescape=True,
+    extensions=['jinja2.ext.autoescape'])
+
+def get(self):
+        template = JINJA2_ENVIRONMENT.get_template('index.html')
+        self.response.out.write(template.render())
+{% endhighlight %}
+
+### GEE Python API
+On selecting a dataset layer, a request is sent to the server to fetch corresponding data from Earth Engine using the Python API. The map information is then returned to the client script to render an Earth Engine map as a Google Map overlay.
 
 # The Client Framework
 While the Earth Engine overlay information is received from the server, the client still talks directly to Earth Engine to load map tiles. Client is built using the React-Redux framework.
 
 ### React-Redux
-The front-end components are built using [React](https://reactjs.org/). Between React.js and Angular.js, Angular is a full framework whereas React is a small view library and provides more flexibility that satisfies the  features needed in our web application. React framework is specifically about fast view rendering. If a page has many dynamic components the DOM has to be frequently updated and these frequent updates can slow down rendering. React allows re-rendering of only the changed DOM elements hence proving to be much faster. Our application is not back-end heavy hence React (front end only) seemed like a great choice to build and maintain the application. Since React is only the front-end View layer, we use [Redux](https://redux.js.org/) to maintain the application state and perform any AJAX calls. 
+The front-end components are built using [React](https://reactjs.org/). Between React.js and Angular.js, Angular is a full framework whereas React is a small view library and provides more flexibility that satisfies the  features needed in our web application. React framework is specifically about fast view rendering. If a page has many dynamic components the DOM has to be frequently updated and these frequent updates can slow down rendering. React allows re-rendering of only the changed DOM elements hence proving to be much faster. Our application is not back-end heavy hence React (front end only) seemed like a great choice to build and maintain the application. 
+
+```javascript
+import React, { Component } from 'react';
+import Header from '../components/header';
+import Navigation from '../components/navigation_bar';
+import SideBar from '../components/sidebar';
+import GoogleMap from '../containers/google_map';
+import Footer from '../components/footer';
+
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <Header />
+        <Navigation />
+        <div className="overlay">
+          <div id="loading-img">
+            <i className="fa fa-circle-o-notch fa-spin fa-5x" />
+          </div>
+        </div>
+        <div className="row">
+          <SideBar />
+          <GoogleMap />
+        </div>
+        <Footer />
+      </div>
+    );
+  }
+}
+```
+
+
+Since React is only the front-end View layer, we use [Redux](https://redux.js.org/) to maintain the application state and perform any AJAX calls. 
+
+```javascript
+export function updateRainfallMap(timePeriod, selectedArea) {
+  axios.defaults.headers.post['Content-Type'] = 'application/json';
+
+  const request = axios({
+    method: 'post',
+    url: `${RAINFALL_URL}`,
+    data: {
+      from: timePeriod.startDate,
+      to: timePeriod.endDate,
+      region: selectedArea
+    }
+  });
+
+  return {
+    type: UPDATE_RAINFALL_MAP,
+    payload: request
+  };
+}
+```
 
 In addition, we also use [NPM](https://www.npmjs.com/) and [Webpack](https://webpack.github.io/) to build the client-side application.
 
@@ -62,14 +167,5 @@ NPM is a node package manager that helps in installing and maintaining node pack
 ### Webpack
 Webpack is a module bundler. It processes the application and includes all the modules needed by our application. These modules are packaged as a single bundle.js file that is loaded in the browser.
 
-## Code
-
-Inline `code`.
-
-{% highlight python %}
-import numpy as np
-def hello_world():
-    print('Hello World!'')
-{% endhighlight %}
 
 
