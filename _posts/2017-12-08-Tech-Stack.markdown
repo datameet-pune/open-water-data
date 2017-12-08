@@ -24,7 +24,7 @@ Another focus area was for the UI to be intuitive and accessible in local langua
 ### *Replicability*
 Lastly and equally important was the modularity and replicability of the code to allow others interested to expand or spin off ideas built on this platform. This essentially required a web app that was built on open source libraries and code. 
 
-### *How it works*
+# How it works
 With these design criteria in mind we’ve put together the initial building blocks of the app.
 
 ![Description](http://datameet-pune.github.io/open-water-data/img/Water App Architecture Diagram.png)
