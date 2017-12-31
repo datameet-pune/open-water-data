@@ -2,7 +2,7 @@
 layout:     post
 title:      The Open Water Data Paper
 author:     Craig Dsouza
-tags: 		data, Paper
+tags: 		data Paper
 subtitle:  	Datasets for Water Studies in India
 category:  Paper
 ---
