@@ -2,7 +2,7 @@
 layout:     post
 title:      Open Water Data Web Application
 author:     Namita Bhatawdekar
-<!-- tags: 		water data available -->
+tags: 		App
 subtitle:  	The Tech Stack
 category:  Tech
 ---
