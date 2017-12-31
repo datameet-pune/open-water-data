@@ -1,0 +1,38 @@
+---
+layout:     post
+title:      The Open Water Data Paper
+author:     Craig Dsouza
+tags: 		data, Paper
+subtitle:  	Datasets for Water Studies in India
+category:  Paper
+---
+<!-- Start Writing Below in Markdown -->
+
+![water-cycle-image](https://datameet-pune.github.io/open-water-data/img/water-cycle.png)
+
+# The Need
+Of the many critical datasets for development that are still unavailable those related to water are among the most important. The central, state and local governments hold an effective monopoly over the collection, storage and dissemination of water related data in India. This is true because the government holds primary responsibility for provisioning of water for domestic use and irrigation across the country. While they collect a lot of data, their efforts at dissemination fall short. 
+
+The focus in the water sector has been on enabling participatory grassroots level management strategies of domestic water, irrigation projects, groundwater etc. Many of these efforts would be greatly aided with easier access to relevant data. The creation of social enterprises seeking to provide services in the rural sector, linked with agriculture and water are handicapped by the lack of water data. In many parts of the country suffering from incessant flooding accurate historical and real time flood maps would aid strategies for disaster management. 
+
+# Government of India data on Water
+The Ministry of Water Resources a few years ago began publishing data on its platform Water Resources Information System of India (WRIS) a web based spatial data platform for dissemination of water related data. In many ways this platform represents an advance over data availability in years preceding it. However in several key ways the platform falls short. It makes available information for perusal and examination but accessing this data comprehensively and running any sort of analysis on it is impossible. Any research efforts require complete datasets to be downloadable with adequate metadata to facilitate their use. The data must be in open formats that are inter-operable, i.e. cross platform compatible and easy to link with other datasets. This allows users to derive insights from data after analysis with other tools. Complete datasets also gives local planning efforts a greater chance of success allowing users to take the data offline and use it within software that works offline, in remote locations. 
+
+| Water Resources Information System of India|
+|:---:|
+| ![wris-india-image](https://datameet-pune.github.io/open-water-data/img/wris-india.png) |
+
+# What’s in the Open Water Data Paper?
+To take a step towards addressing some of the issues in data access highlighted here we put together a paper outlining the various datasets currently existing for water resource studies in India. The paper covers a total of more than 40 datasets, from government sources, community crowdsourced data, and data produced by international scientific agencies. Commercial datasets have not been covered within this paper unless the source of the data is government.
+
+| Satellite Precipitation Data - NASA Worldview|
+|:---:|
+| ![nasa-worldview-image](https://datameet-pune.github.io/open-water-data/img/nasa-worldview.png) |
+
+A comprehensive table in the appendix allows for a comparison of various datasets on multiple parameters. We intend this paper to be a living repository of datasets and will continuously update the paper every few months based on suggestions for new content and revisions we receive from readers. Feel free to provide your feedback. Mail us at pune@datameet.org
+
+| Snapshot of Table comparing various Open Water Datasets - Annexure 1|
+|:---:|
+| ![datasets-summary-image](https://datameet-pune.github.io/open-water-data/img/datasets-summary.png) |
+
+To view the full paper, [Click here](https://datameet-pune.github.io/open-water-data/docs/open-water-data-paper.pdf)
