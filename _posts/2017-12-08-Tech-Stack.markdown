@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      Open Water Data Web Application
+title:      The Open Water Data Web App
 author:     Namita Bhatawdekar
 tags: 		App
-subtitle:  	The Tech Stack
+subtitle:  	How it's built - the Tech Stack
 category:  Tech
 ---
 <!-- Start Writing Below in Markdown -->
