@@ -23,9 +23,23 @@ The Ministry of Water Resources a few years ago began publishing data on its pla
 | ![wris-india-image](https://datameet-pune.github.io/open-water-data/img/wris-india.png) |
 
 # What’s in the Open Water Data Paper?
-To take a step towards addressing some of the issues in data access highlighted here we put together a paper outlining the various datasets currently existing for water resource studies in India. The paper covers a total of more than 40 datasets, from government sources, community crowdsourced data, and data produced by international scientific agencies. Commercial datasets have not been covered within this paper unless the source of the data is government.
+To take a step towards addressing some of the issues in data access highlighted here we put together a paper outlining the various datasets currently existing for water resource studies in India. The paper highlights a total of more than 40 datasets, from government sources, community crowdsourced data, and data produced by international scientific agencies. Commercial datasets have not been covered within this paper unless the source of the data is government.
 
-| Satellite Precipitation Data - NASA Worldview|
+An overview of the datasets mentioned include<br>
+* Shapefiles - River network, water bodies, watershed/basin boundaries
+* Elevation data
+* Water availability
+  * Rainfall
+  * Soil moisture
+  * Groundwater levels
+  * Reservoir storages
+  * River flows
+* Water demand
+  * Domestic demand
+  * Evapotranspiration - agricultural consumption and forests
+  * Industrial demand
+
+| Example snapshot - Satellite Precipitation Data - NASA Worldview|
 |:---:|
 | ![nasa-worldview-image](https://datameet-pune.github.io/open-water-data/img/nasa-worldview.png) |
 
