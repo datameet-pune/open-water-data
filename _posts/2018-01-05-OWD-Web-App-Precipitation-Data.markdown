@@ -12,13 +12,13 @@ The OWD web app is an initial proof of concept which takes this remote sensing b
 
 Table of Contents
 ===================
-  * [The Dataset](##The-Dataset)
-    * [Specifications](###Specifications)
-  * [Use Cases](##Use-Cases)
-  * [Using the Web App](##Using-the-Web-App)
-  * [Future Plans](##Future-Plans)
-    * [Short term goals](###Short-term-goals)
-    * [Long term goals](###Long-term-goals)
+  * [The Dataset](##the-dataset)
+    * [Specifications](###specifications)
+  * [Use Cases](##use-cases)
+  * [Using the Web App](##using-the-web-app)
+  * [Future Plans](##future-plans)
+    * [Short term goals](###short-term-goals)
+    * [Long term goals](###long-term-goals)
   
 ## The Dataset
 The Open Water Data (OWD) Web App provides a web interface to view and download rainfall data for different watersheds for a selected time period of interest. The dataset from which rainfall data is derived is the CHIRPS dataset (Climate Hazards Group InfraRed Precipitation with Station data - version 2.0 final) which is a quasi global dataset of high resolution daily rainfall. 
@@ -28,7 +28,7 @@ The dataset is available under the public domain, allowing for its use and distr
 Funk, C.C., Peterson, P.J., Landsfeld, M.F., Pedreros, D.H., Verdin, J.P., Rowland, J.D., Romero, B.E., Husak, G.J., Michaelsen, J.C., and Verdin, A.P., 2014, A quasi-global precipitation time series for drought monitoring: U.S. Geological Survey Data Series 832, 4 p., http://dx.doi.org/10.3133/ds832
 
 ### Specifications
-**Link**: https://code.earthengine.google.com/dataset/UCSB-CHG/CHIRPS/DAILY<br>
+**Link**: [https://code.earthengine.google.com/dataset/UCSB-CHG/CHIRPS/DAILY](https://code.earthengine.google.com/dataset/UCSB-CHG/CHIRPS/DAILY)<br>
 **Time period**: January 1st, 1981 to December 1st, 2017.<br>
 **Span**: Quasi-global (50 deg N to 50 deg S)<br>
 **Format**: Gridded rainfall data<br>
@@ -39,7 +39,7 @@ Funk, C.C., Peterson, P.J., Landsfeld, M.F., Pedreros, D.H., Verdin, J.P., Rowla
 CHIRPS v2.0 can be used for local watershed level water resource planning by allowing users to create historical trend series for daily rainfall for upto 37 years. Data since 2000 for India is likely to be of higher accuracy since the [number of ground stations](ftp://ftp.chg.ucsb.edu/pub/org/chg/products/CHIRPS-2.0/diagnostics/stations-perMonth-byCountry/pngs/India.072.station.count.CHIRPS-v2.0.png) in the country incorporated into the CHIRPS dataset increased to more than 100. Besides this, since 1999 we have had dedicated satellite rainfall monitoring missions globally which have improved the accuracy of estimations. 
 
 ## Using the Web App
-The OWD app can be accessed at: https://water-data-web-app.appspot.com/<br>
+The OWD app can be accessed at: [https://water-data-web-app.appspot.com/](https://water-data-web-app.appspot.com/)<br>
 By default, data is fetched for the last 7 days for the whole of India.
 
 |   |
