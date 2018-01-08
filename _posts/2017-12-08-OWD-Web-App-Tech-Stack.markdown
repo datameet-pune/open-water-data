@@ -7,12 +7,29 @@ subtitle:  	How it's built - the Tech Stack
 category:  Tech
 ---
 <!-- Start Writing Below in Markdown -->
-The Open Water Data (OWD) web application aims to give researchers or anyone interested about water easy access to water data for their area of interest in India. 
+The Open Water Data (OWD) web application aims to give researchers or anyone interested about water easy access to water data for their area of interest in India. This blogpost outlines the technical choices made in setting up the Web App
+
+Table of Contents
+===================
+  * [Design Criteria](#design-criteria)
+    * [Smooth intuitive User Experience](#smooth-intuitive-user-experience)
+    * [In browser data analysis](#in-browser-data-analysis)
+    * [Localized User Interface](#localized-user-interface)
+    * [Replicability](#replicability)
+  * [How it Works](#how-it-works)
+  * [The App Engine Server Framework](#the-app-engine-server-framework)
+    * [Webapp2](#webapp2)
+    * [Jinja2](#jinja2)
+    * [GEE Python API](#gee-python-api)
+  * [The Client Framework](#the-client-framework)
+    * [React-Redux](#react-redux)
+    * [NPM](#npm)
+    * [Webpack](#webpack)
 
 # Design Criteria
 While designing the web application, we have chosen to focus on a few key design criteria. These aren't meant to be a comprehensive list and some of these are guiding principles for features yet to be  implemented in the web app. 
 
-#### Smooth Intuitive User Experience
+#### Smooth intuitive User Experience
 We are seeking to ensure a smooth user experience for anyone using the application even with internet bandwidth limitations. This criteria may in some cases affect the time-range of available data that can be viewed at one time or sometimes the spatial area of the visualization. Data caching may also be used to improve the rendering time for the data. 
 
 #### In browser data analysis
