@@ -59,4 +59,4 @@ A comprehensive table in the appendix allows for a comparison of various dataset
 |:---:|
 | ![datasets-summary-image](https://datameet-pune.github.io/open-water-data/img/datasets-summary.png) |
 
-To view the full paper, [Click here](https://datameet-pune.github.io/open-water-data/docs/open-water-data-paper.pdf)
+To view the full paper (6 MB), [Click here](https://datameet-pune.github.io/open-water-data/docs/open-water-data-paper.pdf)
