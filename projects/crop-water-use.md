@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: default
 title: "Crop Water Use"
 description: "Estimating the agricultural water footprint"
 intro: "The availability of multi-spectral remote sensing imagery (from multiple sources including Landsat, MODIS, Sentinel etc)
