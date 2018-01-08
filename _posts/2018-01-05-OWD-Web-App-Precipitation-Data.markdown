@@ -12,13 +12,13 @@ The OWD web app is an initial proof of concept which takes this remote sensing b
 
 Table of Contents
 ===================
-  * [The Dataset](##the-dataset)
-    * [Specifications](###specifications)
-  * [Use Cases](##use-cases)
-  * [Using the Web App](##using-the-web-app)
-  * [Future Plans](##future-plans)
-    * [Short term goals](###short-term-goals)
-    * [Long term goals](###long-term-goals)
+  * [The Dataset](#the-dataset)
+    * [Specifications](#specifications)
+  * [Use Cases](#use-cases)
+  * [Using the Web App](#using-the-web-app)
+  * [Future Plans](#future-plans)
+    * [Short term goals](#short-term-goals)
+    * [Long term goals](#long-term-goals)
   
 ## The Dataset
 The Open Water Data (OWD) Web App provides a web interface to view and download rainfall data for different watersheds for a selected time period of interest. The dataset from which rainfall data is derived is the CHIRPS dataset (Climate Hazards Group InfraRed Precipitation with Station data - version 2.0 final) which is a quasi global dataset of high resolution daily rainfall. 
