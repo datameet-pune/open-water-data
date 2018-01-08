@@ -7,9 +7,14 @@ subtitle:  	Datasets for Water Studies in India
 category:  Paper
 ---
 <!-- Start Writing Below in Markdown -->
-
-![water-cycle-image](https://datameet-pune.github.io/open-water-data/img/water-cycle.png)
-
+Table of Contents
+===================
+  * [The Need](#the-need)
+  * [Government of India data on Water](#government-of-india-data-on-water)
+  * [The Open Water Data Paper](#the-open-water-data-paper)
+    * [Datasets](#datasets)
+    * [Open Data Score](#open-data-score)
+    
 # The Need
 Of the many critical datasets for development that are still unavailable those related to water are among the most important. The central, state and local governments hold an effective monopoly over the collection, storage and dissemination of water related data in India. This is true because the government holds primary responsibility for provisioning of water for domestic use and irrigation across the country. While they collect a lot of data, their efforts at dissemination fall short. 
 
@@ -22,9 +27,10 @@ The Ministry of Water Resources a few years ago began publishing data on its pla
 |:---:|
 | ![wris-india-image](https://datameet-pune.github.io/open-water-data/img/wris-india.png) |
 
-# What’s in the Open Water Data Paper?
+# The Open Water Data Paper
 To take a step towards addressing some of the issues in data access highlighted here we put together a paper outlining the various datasets currently existing for water resource studies in India. The paper highlights a total of more than 40 datasets, from government sources, community crowdsourced data, and data produced by international scientific agencies. Commercial datasets have not been covered within this paper unless the source of the data is government.
 
+## Datasets
 An overview of the datasets mentioned include<br>
 * Shapefiles - River network, water bodies, watershed/basin boundaries
 * Elevation data
@@ -43,6 +49,8 @@ An overview of the datasets mentioned include<br>
 |:---:|
 | ![nasa-worldview-image](https://datameet-pune.github.io/open-water-data/img/nasa-worldview.png) |
 
+
+## Open Data Score
 A comprehensive table in the appendix allows for a comparison of various datasets on multiple parameters. We intend this paper to be a living repository of datasets and will continuously update the paper every few months based on suggestions for new content and revisions we receive from readers. Feel free to provide your feedback. Mail us at pune@datameet.org
 
 | Snapshot of Table comparing various Open Water Datasets - Annexure 1|
