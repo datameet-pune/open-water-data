@@ -4,7 +4,7 @@ title:      The Open Water Data Web App
 author:     Namita Bhatawdekar
 tags: 		Data App Precipitation
 subtitle:  	Precipitation Data
-category:  App
+category:  precipitation
 ---
 <!-- Start Writing Below in Markdown -->
 
