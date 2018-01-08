@@ -10,15 +10,15 @@ category:  how-to
 
 Table of Contents
 ===================
-  * [Goals of data collection](##Goals-of-data-collection)
-  * [Open Camera App](##Open-Camera-App)
-    * [Installation](###Installation)
-    * [Change the default settings of Open Camera](###Change-the-default-settings-of-Open-Camera)
-  * [Travel to field sites](##Travel-to-field-sites)
-    * [GPS](##GPS)
-    * [Click and confirm photo](##Click-and-confirm-photo)
-  * [Upload photos and rename](##Upload-photos-and-rename)
-  * [Email](##Email)
+  * [Goals of data collection](#goals-of-data-collection)
+  * [Open Camera App](#open-camera-app)
+    * [Installation](#installation)
+    * [Change the default settings of Open Camera](#change-the-default-settings-of-open-camera)
+  * [Travel to field sites](#travel-to-field-sites)
+    * [GPS](#gps)
+    * [Click and confirm photo](#click-and-confirm-photo)
+  * [Upload photos and rename](#upload-photos-and-rename)
+  * [Email](#email)
   
 # Goals of data collection
 Out goal of this data collection exercise is to develop a crop database that can be used to teach a training/testing set for applying Machine Learning to open source satellite imagery. The database would need to have three main variables. Crop name, GPS lat,long of a field where the crop is currently growing and a photo of the crop itself. <br>
