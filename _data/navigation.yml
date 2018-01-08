@@ -5,10 +5,10 @@
 - title: Search
   url: /search/
 - title: Crop Water Use
-  url: /projects/crop-water-use
+  url: 
   sublinks:
     - title: Roadmap
-      url: /crop-maps-roadmap/
+      url: /projects/crop-water-use
     - title: Data collection
       url: /how-to/2017/09/27/data-collection-guide/
     - title: Live Crop Map
@@ -16,9 +16,9 @@
     - title: Crop Classification
       url: /crop-classification/ 
 - title: Rainfall
-  url: /projects/rainfall
+  url: 
   sublinks:
     - title: Roadmap
-      url: /rainfall-roadmap/
+      url: /projects/rainfall
     - title: Remotely sensed Rainfall Data
       url: /app/2018/01/05/OWD-Web-App-Precipitation-Data/
