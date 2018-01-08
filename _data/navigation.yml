@@ -7,18 +7,18 @@
 - title: Crop Water Use
   url: /crop-water-use
   sublinks:
+    - title: Roadmap
+      url: /roadmap/
     - title: Data collection
       url: /how-to/2017/09/27/data-collection-guide/
     - title: Live Crop Map
       url: /live-crop-map/
-    - title: Classification
-      url: /crop-classification/
+    - title: Crop Classification
+      url: /crop-classification/ 
 - title: Rainfall
   url: /rainfall
   sublinks:
-    - title: Begin here
-      url: /begin-here/
-    - title: IMD Rainfall Data
-      url: /imd-data/
+    - title: Roadmap
+      url: /roadmap/
     - title: Remotely sensed Rainfall Data
       url: /app/2018/01/05/OWD-Web-App-Precipitation-Data/
