@@ -4,7 +4,7 @@ title:      Guide to collection of Crop data points
 author:     Craig D
 tags: 		how-to
 subtitle:  	
-category:  how-to
+category:  crop-water-use
 ---
 <!-- Start Writing Below in Markdown -->
 
