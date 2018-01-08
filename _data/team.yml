@@ -19,16 +19,6 @@
   url: https://bnamita.github.io/Portfolio/
   visible: true
   
-- name: Riddhi Munde
-  role: Remote Sensing Specialist
-  img: https://media.licdn.com/media/AAEAAQAAAAAAAALfAAAAJDQ5MTExMjQ3LWIzYjYtNDE4Yy1iNDE2LTE0MjExOTQ1ZDVlNQ.jpg
-  github:
-  twitter:
-  linkedin: https://www.linkedin.com/in/riddhimunde/
-  bio: Riddhi is a GIS and Remote Sensing professional with 2.5 yrs of experience. She has a Master's degree in Geoinformatics and Earth Observation from ITC, University of Twente, The Netherlands. Her project experience includes implementing GIS and remote sensing solutions across a number of industries. She is interested in location and remote sensing analytics, ML, Image processing, web based visualizations and is proficient in ArcGIS, QGIS, PostGIS, Web mapping, algorithm development in Python and R and cloud computing. At Datameet she contributes with her know how of remote sensing to further improve data access in water and agriculture.
-  url:
-  visible: true
-  
 - name: Jinda Sandbhor
   role: Researcher
   img: http://praggyan.com/wp-content/uploads/2017/03/Jinda-Sandbhor-e1488366306664.jpg
