@@ -7,14 +7,15 @@ subtitle:  	Datasets for Water Studies in India
 category:  Paper
 ---
 <!-- Start Writing Below in Markdown -->
+
 Table of Contents
-===================
+=================
   * [The Need](#the-need)
   * [Government of India data on Water](#government-of-india-data-on-water)
   * [The Open Water Data Paper](#the-open-water-data-paper)
     * [Datasets](#datasets)
     * [Open Data Score](#open-data-score)
-    
+
 # The Need
 Of the many critical datasets for development that are still unavailable those related to water are among the most important. The central, state and local governments hold an effective monopoly over the collection, storage and dissemination of water related data in India. This is true because the government holds primary responsibility for provisioning of water for domestic use and irrigation across the country. While they collect a lot of data, their efforts at dissemination fall short. 
 
