@@ -8,7 +8,7 @@
   url: /crop-water-use
   sublinks:
     - title: Roadmap
-      url: /roadmap/
+      url: /crop-maps-roadmap/
     - title: Data collection
       url: /how-to/2017/09/27/data-collection-guide/
     - title: Live Crop Map
@@ -19,6 +19,6 @@
   url: /rainfall
   sublinks:
     - title: Roadmap
-      url: /roadmap/
+      url: /rainfall-roadmap/
     - title: Remotely sensed Rainfall Data
       url: /app/2018/01/05/OWD-Web-App-Precipitation-Data/
