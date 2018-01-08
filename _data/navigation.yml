@@ -5,7 +5,7 @@
 - title: Search
   url: /search/
 - title: Crop Water Use
-  url: projects/crop-water-use
+  url: /projects/crop-water-use
   sublinks:
     - title: Roadmap
       url: /crop-maps-roadmap/
