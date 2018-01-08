@@ -44,24 +44,24 @@ By default, data is fetched for the last 7 days for the whole of India.
 
 |   |
 |:---|
-|**App Interface**: The app interface will appear as below|
-|![app-interface](https://datameet-pune.github.io/open-water-data/img/app-interface.png)|
-|**Select Dataset**: To view a dataset, toggle the dataset layer in the left sidebar. You will see a loading spinner while the data is being fetched|
-|![select-dataset](https://datameet-pune.github.io/open-water-data/img/select-dataset.png)|
-|**Tile Loading**: When the rainfall data has been fetched, the map tiles will start loading on the base map and you will be able to see the tile loading progress in the sidebar next to the selected dataset|
-|![tiles-loading](https://datameet-pune.github.io/open-water-data/img/tiles-loading.png)|
-|**Precipitation Layer Loaded**: When the all the tiles have finished loading, you will be able to see the selected dataset on the map. A legend on the right displays the map colors and corresponding dataset values|
-|![precipitation-loaded](https://datameet-pune.github.io/open-water-data/img/precipitation-loaded.png)|
-|**Date Selection**: You can further filter the dataset for a time period of your interest. To filter by a time period, select a Start date and End date from the side bar. Requests for a time range of more than 1 month generally takes time to load|
-|![date-selection](https://datameet-pune.github.io/open-water-data/img/date-selection.png)|
-|**Watershed Selection**: You can also filter the dataset for a watershed of your interest. This will fetch data for the selected watershed for the selected time period.To select a watershed, click on any of the displayed watersheds on the map|
-|![watershed-selection](https://datameet-pune.github.io/open-water-data/img/watershed-selection.png)|
-|**To Download**: You can download the your filtered dataset in a spreadsheet format (csv) using the Download button displayed next to the dataset toggle|
-|![to-download](https://datameet-pune.github.io/open-water-data/img/download-highlight.png)|
-|**Export in Progress**: You will be able to see a “Export in progress..” message displayed on top of the screen while your csv file is being prepared|
-|![export-in-progress](https://datameet-pune.github.io/open-water-data/img/export-in-progress.png)|
-|**Download Successful**: When your csv file is ready for download, you will get a message “Exported successfully” on top of the screen with your download link. Click on this link to download the csv file to your computer|
-|![download-successful](https://datameet-pune.github.io/open-water-data/img/download-successful.png)|
+|<br>**App Interface**: The app interface will appear as below|
+|<br>![app-interface](https://datameet-pune.github.io/open-water-data/img/app-interface.png)|
+|<br>**Select Dataset**: To view a dataset, toggle the dataset layer in the left sidebar. You will see a loading spinner while the data is being fetched|
+|<br>![select-dataset](https://datameet-pune.github.io/open-water-data/img/select-dataset.png)|
+|<br>**Tile Loading**: When the rainfall data has been fetched, the map tiles will start loading on the base map and you will be able to see the tile loading progress in the sidebar next to the selected dataset|
+|<br>![tiles-loading](https://datameet-pune.github.io/open-water-data/img/tiles-loading.png)|
+|<br>**Precipitation Layer Loaded**: When all the tiles have finished loading, you will be able to see the selected dataset on the map. A legend on the right displays the map colors and corresponding dataset values|
+|<br>![precipitation-loaded](https://datameet-pune.github.io/open-water-data/img/precipitation-loaded.png)|
+|<br>**Date Selection**: You can further filter the dataset for a time period of your interest. To filter by a time period, select a Start date and End date from the side bar. Requests for a time range of more than 1 month generally takes time to load|
+|<br>![date-selection](https://datameet-pune.github.io/open-water-data/img/date-selection.png)|
+|<br>**Watershed Selection**: You can also filter the dataset for a watershed of your interest. This will fetch data for the selected watershed for the selected time period.To select a watershed, click on any of the displayed watersheds on the map|
+|<br>![watershed-selection](https://datameet-pune.github.io/open-water-data/img/watershed-selection.png)|
+|<br>**To Download**: You can download the your filtered dataset in a spreadsheet format (csv) using the Download button displayed next to the dataset toggle|
+|<br>![to-download](https://datameet-pune.github.io/open-water-data/img/download-highlight.png)|
+|<br>**Export in Progress**: You will be able to see a “Export in progress..” message displayed on top of the screen while your csv file is being prepared|
+|<br>![export-in-progress](https://datameet-pune.github.io/open-water-data/img/export-in-progress.png)|
+|<br>**Download Successful**: When your csv file is ready for download, you will get a message “Exported successfully” on top of the screen with your download link. Click on this link to download the csv file to your computer|
+|<br>![download-successful](https://datameet-pune.github.io/open-water-data/img/download-successful.png)|
 
 ## Future Plans
 We wish to first prioritize building a community of users around this data. Primarily researchers, but also people within institutions that plan local management of water resources. This is mainly because datasets such as this would be new and unfamiliar to a larger audience, hence demonstrating a few use cases and comparisons with existing data available at the grassroots and government precipitation data would be vital.
