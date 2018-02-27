@@ -28,6 +28,14 @@
   url: http://jinda.manthan-india.org/author/jinda/
   visible: true
   
+- name: Isaac Patole
+  role: Machine Learning Intern
+  img: https://github.com/datameet-pune/open-water-data/blob/master/img/isaac.jpg
+  github: https://github.com/IsaacPatole
+  linkedin: https://www.linkedin.com/in/isaac-patole223/
+  bio: Isaac is a Computer Science graduate and Data Science and Machine Learning enthusiast, as an intern he currently develops satellite imagery processing algorithms, for crop maps, for Datameet's Open Water Data project. He continuously updates his knowledge through online courses on Data Science, ML and AI. He loves to discuss new ideas, technology and research and uses his technical skills to volunteer with non-profits in Pune city. He can be reached at isaacpatole4u@gmail.com
+  visible: true
+  
 - name: Sumandro Chattapadhyay
   role: Project Adviser and Research Director, Centre for Internet and Society (CIS)
   img: http://www.designpublic.in/wp-content/uploads/2015/10/sumandro-269x200.jpg
